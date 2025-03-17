@@ -42,7 +42,7 @@ function App() {
 
   return (
     <AppContext.Provider
-      value={{ ...clickEvents, item, actCheck, detailsCheck }}
+      value={{ ...clickEvents, item, actCheck, detailsCheck, index }}
     >
       <GenerateList />
     </AppContext.Provider>
